@@ -52,15 +52,15 @@ const trezor = trezorModule(trezorOptions)
 export const initWeb3Onboard = init({
   wallets: [
     injected,
-    ledger,
-    walletLink,
-    trezor,
-    walletConnect,
-    gnosis,
-    fortmatic,
-    keepkey,
-    portis,
-    torus
+    // ledger,
+    // walletLink,
+    // trezor,
+    // walletConnect,
+    // gnosis,
+    // fortmatic,
+    // keepkey,
+    // portis,
+    // torus
   ],
   chains: [
     {
